@@ -70,13 +70,6 @@
         <configuration>
                 <source>17</source>   <!-- or 11 / 1.8 -->
                 <target>17</target>   <!-- match your JDK -->
-                <annotationProcessorPaths>
-                    <path>
-                        <groupId>org.projectlombok</groupId>
-                        <artifactId>lombok</artifactId>
-                        <version>1.18.32</version>
-                    </path>
-                </annotationProcessorPaths>
             </configuration>
       </plugin>
       <plugin>
@@ -95,3 +88,4 @@
   
 
 </project>
+
